@@ -7,7 +7,7 @@ import { extension_settings } from '../../../extensions.js';
 
 // 扩展配置
 const extensionName = 'tab-indent-helper';
-const extensionFolderPath = `scripts/extensions/third-party/st-extension-example`;
+const extensionFolderPath = `scripts/extensions/third-party/tab-indent-extension`;
 const extensionSettings = extension_settings[extensionName];
 const defaultSettings = {
   enabled: true,
