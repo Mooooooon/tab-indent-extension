@@ -1,0 +1,31 @@
+<!-- You might want to add additional HTML elements to ST. 
+    It's good practice to separate it out from your code -->
+<div class="tab-indent-extension-settings">
+  <div class="inline-drawer">
+    <div class="inline-drawer-toggle inline-drawer-header">
+      <b>Tab缩进助手</b>
+      <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+    </div>
+    <div class="inline-drawer-content">
+      <div class="tab-indent-extension_block flex-container">
+        <input id="tab_indent_enabled" type="checkbox" />
+        <label for="tab_indent_enabled">启用Tab缩进功能</label>
+      </div>
+
+      <div class="tab-indent-extension_block flex-container">
+        <label for="indent_spaces">缩进空格数量：</label>
+        <input id="indent_spaces" type="number" min="1" max="8" value="2" style="width: 60px; margin-left: 10px" />
+      </div>
+
+      <div class="tab-indent-extension_block flex-container">
+        <small style="color: #888; margin-top: 10px">
+          使用说明：启用后，在输入框中按Tab键将插入指定数量的空格缩进。<br />
+          按Shift+Tab键可以移除行首的缩进（反缩进）。<br />
+          选中多行文本时，Tab/Shift+Tab键将为每一行添加/移除缩进。
+        </small>
+      </div>
+
+      <hr class="sysHR" />
+    </div>
+  </div>
+</div>
